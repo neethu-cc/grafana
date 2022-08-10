@@ -29,7 +29,7 @@ properties:
     PROM_URL: http://prometheus-2-17:9090/
     GF_AUTH_GENERIC_OAUTH_ENABLED: true
     GF_AUTH_GENERIC_OAUTH_NAME: AppZ 
-    GF_AUTH_GENERIC_OAUTH_CLIENT_ID: grafana0
+    GF_AUTH_GENERIC_OAUTH_CLIENT_ID: grafana01
     GF_AUTH_GENERIC_OAUTH_CLIENT_SECRET: 
       vault: GF_AUTH_GENERIC_OAUTH_CLIENT_SECRET
     GF_AUTH_GENERIC_OAUTH_SCOPES: openid profile email  
@@ -38,5 +38,5 @@ properties:
     GF_AUTH_GENERIC_OAUTH_API_URL: https://appz.038c839d.lowtouch.cloud/openid/userinfo 
     GF_AUTH_GENERIC_OAUTH_NAME_ATTRIBUTE_PATH: anyname
     GF_AUTH_GENERIC_OAUTH_ROLE_ATTRIBUTE_PATH: contains(roles[*], 'admin') && 'Admin' || 'Viewer'
-    GF_SERVER_ROOT_URL: https://neethu-cc-grafana-7-0.038c839d.lowtouch.cloud
-    revision: 60
+    GF_SERVER_ROOT_URL: https://neethu-cc-dev-grafana-7-0.038c839d.lowtouch.cloud
+    revision: 61
